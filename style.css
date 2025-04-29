@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap&#39;);
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap&#39');
 
 :root {
     --cor-de-fundo: #1E1E1E;
@@ -60,11 +60,19 @@ body {
     display: block;
 }
 
-media screen and(min-width: 768pc){
+@media screen and(min-width: 768pc){
     .botoes{
-        display.flex;
+        display:flex;
     }
     .botao: :first-child {
-        border-radius: 40 px 000;
+        border-radius: 40px 0 0 0;
     }
+    .botao: last-child{
+        border-radius: 0 40px 0 0;
+    }
+
+
+
+
+
 }
